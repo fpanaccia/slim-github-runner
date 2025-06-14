@@ -1,10 +1,10 @@
 # GitHub Actions Self-Hosted Runner (Debian Slim + Docker)
 
-A lightweight, Dockerized GitHub Actions runner built on the `debian:bullseye-slim` base image.
+A lightweight, Dockerized GitHub Actions runner built on the `debian:bookworm-slim` base image.
 
 This project includes:
 
-- Minimal glibc-based Docker image using `debian:bullseye-slim`
+- Minimal glibc-based Docker image using `debian:bookworm-slim`
 - Dynamic download of the latest GitHub Actions runner
 - Installs required dependencies
 - GitHub Actions workflow for building and publishing the image
